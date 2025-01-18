@@ -750,8 +750,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d2f42f4eaa1fdf449f6d8071dd902fd
-      internalID: -1700105069
+      spriteID: 7f1d6fc87710a5a498e9339d0d588ac9
+      internalID: -1758549679
       vertices: []
       indices: 
       edges: []
@@ -772,8 +772,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25c628ecef60653488c5949ab9dc10ad
-      internalID: -1101003961
+      spriteID: 1d109140f7b38d94db7af6cc0d5d7e7c
+      internalID: -397254197
       vertices: []
       indices: 
       edges: []
@@ -794,8 +794,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eda4e18be8dec149b029f98783b3180
-      internalID: -1276229319
+      spriteID: e6dc010353ec9aa48b5165cc48f4c107
+      internalID: -447206537
       vertices: []
       indices: 
       edges: []
@@ -816,8 +816,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1a7ad9da1f7326468d2ad61b6fddd0a
-      internalID: 315080252
+      spriteID: 1af93901b4cde5144a95d62494fcfe89
+      internalID: -659941429
       vertices: []
       indices: 
       edges: []
@@ -838,8 +838,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a47ceaf5c2376194aa61ea6281a77e96
-      internalID: -1186723180
+      spriteID: 2a343505c0633ef4fb9154efd3032682
+      internalID: -1001945168
       vertices: []
       indices: 
       edges: []
@@ -848,7 +848,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d111f3b782dab554d8ad191b957f99c1
+    spriteID: b472ae4f9fb783549a732ef85c819349
     internalID: 0
     vertices: []
     indices: 
@@ -876,11 +876,11 @@ TextureImporter:
       player_default_back_22: 3227206383871931309
       player_default_back_23: 8855613029515962094
       player_default_back_24: 1636887137015718910
-      player_default_back_25: -1700105069
-      player_default_back_26: -1101003961
-      player_default_back_27: -1276229319
-      player_default_back_28: 315080252
-      player_default_back_29: -1186723180
+      player_default_back_25: -1758549679
+      player_default_back_26: -397254197
+      player_default_back_27: -447206537
+      player_default_back_28: -659941429
+      player_default_back_29: -1001945168
       player_default_back_3: 1620074235725963042
       player_default_back_4: -5900702164008096659
       player_default_back_5: -6737326949299072328
