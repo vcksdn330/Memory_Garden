@@ -659,6 +659,7 @@ GameObject:
   - component: {fileID: 1809763386}
   - component: {fileID: 1809763388}
   - component: {fileID: 1809763389}
+  - component: {fileID: 1809763390}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -790,23 +791,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1809763387}
-  bodyRenderer: {fileID: 1809763386}
   headRenderer: {fileID: 1703300265}
   coatRenderer: {fileID: 353772460}
   shirtRenderer: {fileID: 873007856}
   legsRenderer: {fileID: 1570468870}
   feetRenderer: {fileID: 411901348}
-  headSprites:
-  - {fileID: 667528221841965556, guid: e098e229769a8ec41aa50d8ae0b6397b, type: 3}
-  - {fileID: 7187219233951744634, guid: e098e229769a8ec41aa50d8ae0b6397b, type: 3}
-  - {fileID: -2352512302592470644, guid: e098e229769a8ec41aa50d8ae0b6397b, type: 3}
-  - {fileID: 6120131107717251536, guid: e098e229769a8ec41aa50d8ae0b6397b, type: 3}
-  - {fileID: -8974670435760337211, guid: e098e229769a8ec41aa50d8ae0b6397b, type: 3}
-  - {fileID: -8622165566937882436, guid: e098e229769a8ec41aa50d8ae0b6397b, type: 3}
-  coatSprites: []
-  shirtSprites: []
-  legsSprites: []
-  feetSprites: []
+  currentState: 
+  bodyTotalFrames: 6
+--- !u!61 &1809763390
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809763384}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0045594573, y: -0.031917572}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.91480005, y: 1.9361649}
+  m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
