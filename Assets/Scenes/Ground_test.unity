@@ -5479,16 +5479,17 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 2.316445, y: 1.7199124}
-      - {x: 1.8689302, y: 1.0923942}
-      - {x: 1.8459475, y: -0.08987653}
-      - {x: 2.0437093, y: -1.0363997}
+    - - {x: 2.4295735, y: 1.380527}
+      - {x: 2.271165, y: 0.92898643}
+      - {x: 2.3110313, y: -0.19043517}
+      - {x: 2.2273757, y: -0.640047}
+      - {x: 1.9682903, y: -0.9986902}
       - {x: 3.0319326, y: -0.99837965}
       - {x: 2.7870305, y: -0.389707}
-      - {x: 3.5014417, y: -0.009974241}
-      - {x: 3.372936, y: 0.18127713}
-      - {x: 3.3926597, y: 0.71350926}
-      - {x: 3.0599887, y: 1.3475922}
+      - {x: 2.8980896, y: -0.11053288}
+      - {x: 2.895282, y: 0.1561374}
+      - {x: 2.9527156, y: 0.36155397}
+      - {x: 2.921721, y: 1.196754}
   m_UseDelaunayMesh: 0
 --- !u!483693784 &1582189805
 TilemapRenderer:
@@ -5531,8 +5532,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -722002825
+  m_SortingLayer: 2
   m_SortingOrder: 6
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
