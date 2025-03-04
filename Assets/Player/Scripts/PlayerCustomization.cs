@@ -6,6 +6,7 @@ public class PlayerCustomization : MonoBehaviour
     public Animator animator;
 
     // 각 부위의 SpriteRenderer
+    public SpriteRenderer bodyRenderer;
     public SpriteRenderer headRenderer;
     public SpriteRenderer coatRenderer;
     public SpriteRenderer shirtRenderer;
@@ -30,6 +31,7 @@ public class PlayerCustomization : MonoBehaviour
         // SpriteRenderer 초기화
         renderers = new Dictionary<string, SpriteRenderer>
         {
+            { "body", bodyRenderer },
             { "head", headRenderer },
             { "coat", coatRenderer },
             { "shirt", shirtRenderer },
